@@ -2,6 +2,7 @@ import type {
   Account,
   Bank,
   BillProvider,
+  Currency,
   MobileMoneyProvider,
   RemittanceProvider,
   Transaction,
@@ -451,5 +452,3 @@ export function formatPGK(amount: number): string {
     maximumFractionDigits: 2,
   })}`;
 }
-
-export type { Currency };
